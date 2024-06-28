@@ -30,32 +30,32 @@ def is_enabled(value, default):
 # Ask Doubt on telegram @KingVJ01
       
 # Owner Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-ADMINS = int(environ.get("ADMINS", ""))
+API_ID = int(environ.get("API_ID", "10969967"))
+API_HASH = environ.get("API_HASH", "c949caf0c7d5c268bd8302a8a730027b")
+ADMINS = int(environ.get("ADMINS", "1490611763"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "")
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://warderurl:warderupload@cluster0.uom97rc.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "warderurl")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "") # your bot username without @
-PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
+BOT_TOKEN = environ.get("BOT_TOKEN", "7118778712:AAF2DEDnEHwXeufZC5uf7o1YwLytYat4NZw")
+BOT_USERNAME = environ.get("BOT_USERNAME", "JennaOrtegaStorebot") # your bot username without @
+PICS = (environ.get('PICS', 'https://graph.org/file/94ba74f622ee2b4f21ad6.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "1")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "60")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002069871013"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001589148558')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
